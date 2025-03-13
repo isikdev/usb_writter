@@ -1,0 +1,8 @@
+setuptools
+psutil
+tqdm
+cryptography
+rarfile
+pywin32
+wmi
+cython

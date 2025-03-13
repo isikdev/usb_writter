@@ -1,0 +1,43 @@
+{
+  "block_size" : "100m",
+  "container_path" : "E:",
+  "new_container_size" : "1500m",
+  "mode" : ["decrypt", "rar"], 
+  "cpu_priority" : "normal",
+  "buffer_size" : "4m",
+  "noize" : true,
+  "encrypt" : [
+    {
+      "files" : ["testdir/test", "testdir/test1"],
+      "directories" : ["testdir", "emptydir"],
+      "password" : "12"
+    },
+    {
+      "files" : ["testdir/test2", "testdir/test.zip"],
+      "directories" : [""],
+      "password" : "123"
+    }
+  ],
+  "decrypt" : {
+    "password" : ["12", "123"],
+    "output" : "output"
+  },
+  "rar" : {
+    "archive_path" : "zips/archive",
+    "password" : "secr3t",
+    "piece_size" : "90m",
+    "recovery_procent" : "3",
+    "clean": true
+  },
+  "unrar" : {
+    "first_archive_path" : "zips/archive.part01.rar",
+    "output" : ".",
+    "password" : "secr3t",
+    "clean": true
+  },
+  "par2" : {
+    "file_path" : "zips/archive.part*.rar",
+    "par2file_path" : "zips/par2file.par2",
+    "recovery_procent" : "20"
+  }
+}

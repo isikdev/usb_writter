@@ -1,0 +1,41 @@
+шаг 10m
+путь cont
+размер 300m
+режим ши
+приоритет низк
+буффер 1m
+шум +
+
+ши
+файлы testdir/test,testdir/test1
+папки testdir,testdir/emptytest
+пар 12 подсказка
+хуш 400m
+
+ши
+файлы testdir/test2,testdir/test.zip
+папки _
+пар 123
+хуш 400m
+
+де
+пар 12,123 подсказка
+вывод output
+
+рар
+рпуть zips/archive
+пар secr3t
+кусок 90m
+процент 3
+очистка -
+
+урар
+упуть zips/archive.part1.rar
+вывод .
+пар secr3t
+очистка -
+
+#пар2
+#ппуть zips/archive.part*.rar
+#парпуть zips/par2file.par2
+#процент 20

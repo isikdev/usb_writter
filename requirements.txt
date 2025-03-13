@@ -1,0 +1,20 @@
+build==1.2.2.post1
+cffi==1.17.1
+colorama==0.4.6
+ConfigArgParse==1.7
+cryptography==44.0.0
+Cython==3.0.11
+darkdetect==0.8.0
+packaging==24.2
+par2cmdline-turbo==1.2.0
+par2deep==1.11.0
+psutil==6.1.0
+pycparser==2.22
+pyproject_hooks==1.2.0
+pywin32==308
+rarfile==4.2
+reedsolo @ file:///C:/coding/newcryptomostlatest/reedsolomon/dist/reedsolo-2.1.2b1-cp312-cp312-win_amd64.whl#sha256=f0fdfc76e1be6b23ce006044f51287ee44a0e556a9cb8917044218819f098dd4
+Send2Trash==1.8.3
+setuptools==75.6.0
+tqdm==4.67.1
+WMI==1.5.1

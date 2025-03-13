@@ -1,0 +1,36 @@
+{
+  "block_size" : "50mb",
+  "container_path" : "mult",
+  "new_container_size" : "250mb",
+  "mode" : ["decrypt", "rar"],
+  "cpu_priority" : "idle",
+  "encrypt" : [
+    {
+      "files" : [""],
+      "directories" : [""],
+      "password" : "12"
+    }
+  ],
+  "decrypt" : {
+    "password" : "12",
+    "output" : "output"
+  },
+  "rar" : {
+    "archive_path" : "zips/archive",
+    "password" : "secr3t",
+    "piece_size" : "50m",
+    "recovery_procent" : "3",
+    "clean" : true
+  },
+  "unrar" : {
+    "first_archive_path" : "zips/archive.part1.rar",
+    "output" : ".",
+    "password" : "secr3t",
+    "clean" : true
+  },
+  "par2" : {
+    "file_path" : "zips/archive.part*.rar",
+    "par2file_path" : "zips/par2file.par2",
+    "recovery_procent" : "20"
+  }
+}

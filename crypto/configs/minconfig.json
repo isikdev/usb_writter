@@ -1,0 +1,8 @@
+{
+    "mode" : ["encrypt"],
+    "encrypt" : {
+      "files" : ["testdir/test", "testdir/test1"],
+      "directories" : [""],
+      "password" : "12"
+    }
+}

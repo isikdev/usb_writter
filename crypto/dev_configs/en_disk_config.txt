@@ -1,0 +1,37 @@
+шаг 1m
+путь E:
+размер 4g
+режим ши
+приоритет низк
+буффер 1m
+шум + 
+
+ши
+файлы testdir/test,testdir/test1
+папки testdir,emptydir
+пар 2 подсказка
+
+рар
+рпуть zips/archive
+пар secr3t
+кусок 90m
+процент 3
+очистка -
+
+урар
+упуть zips/archive.part1.rar
+вывод .
+пар secr3t
+очистка -
+
+#пар2
+#ппуть zips/archive.part*.rar
+#парпуть zips/par2file.par2
+#процент 20
+
+пар2драйв
+физикномер 1 
+гптс savegpt
+разделс savepart
+проверка + 
+процент 20 
